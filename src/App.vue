@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import MeatHeadPreview from './components/MeatHeadPreview.vue';
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-<HelloWorld />
+    <NavBar />
+<MeatHeadPreview />
 </template>
 
 <style scoped>

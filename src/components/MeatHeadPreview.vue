@@ -1,11 +1,9 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
-  
-  <div style="align-items: center; justify-content: center; height: 70vh">
-    <h1>Meatheads 2023</h1>
+  <div class="justify-self-center">
+    <h1 class="text-center">Meatheads 2023</h1>
   </div>
 </template>
 

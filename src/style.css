@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     /* Set background properties */
     background-color: #1b1b1b; /* Fallback color */
@@ -5,63 +9,4 @@ body {
     background-size: 20px 20px; /* Adjust the size of circles */
     background-repeat: repeat;
     color: white;
-  }
-
-  h1 {
-    font-size: xx-large;
-  }
-  h2 {
-    font-size: x-large;
-  }
-
-
-  /* Flexbox reset */
-  *:where(:not(iframe, canvas, details, img, summary, svg, svg *, symbol *, video)) {
-    all: unset;
-    display: revert;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  :where([hidden]) {
-    display: none;
-  }
-  :where(address, article, aside, body, dialog, div, dl, fieldset, figure, footer, form, header, hgroup, html, iframe, label, legend, li, main, menu, nav, ol, section, ul) {
-    display: flex;
-    flex-direction: column;
-  }
-  a,
-  button {
-    cursor: revert;
-  }
-  blockquote,
-  q {
-    quotes: none;
-  }
-  blockquote::before,
-  q::before,
-  blockquote::after,
-  q::after {
-    content: '';
-    content: none;
-  }
-  :focus-visible {
-    outline: revert;
-  }
-  html {
-    text-size-adjust: none;
-  }
-  meter {
-    appearance: revert;
-  }
-  :where(ol, ul, menu) {
-    list-style: none;
-  }
-  ::placeholder {
-    color: unset;
-  }
-  table {
-    border-collapse: collapse;
   }
