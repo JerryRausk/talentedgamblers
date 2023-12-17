@@ -6,7 +6,6 @@
   
   <div style="align-items: center; justify-content: center; height: 70vh">
     <h1>Meatheads 2023</h1>
-    <h2>Coming soon...</h2>
   </div>
 </template>
 
